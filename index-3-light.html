@@ -392,7 +392,7 @@
         <!--==================================================-->
         <!-- Strt hotelhub Booking Section  -->
         <!--==================================================-->
-        <div class="hotel-boking">
+   <!--     <div class="hotel-boking">
           <div class="container">
             <div class="row booking_bg style_two align-items-center">
               <div class="col-lg-3">
@@ -433,7 +433,70 @@
               </div>
             </div>
           </div>
+        </div>-->
+        <div class="hotel-boking">
+  <div class="container">
+    <div class="row booking_bg style_two align-items-center">
+      
+      <div class="col-lg-3">
+        <div class="booking-title">
+          <h3>Book Your Stay at YouthVille – Safe & Comfortable Living</h3>
         </div>
+      </div>
+
+      <div class="col-lg-9">
+        <form id="bookingForm">
+          <div class="hetelhub-htel-boking">
+
+            <!-- Move In Date -->
+            <div class="controls">
+              <input type="date" id="movein" class="floatLabel" name="movein" required>
+              <label for="movein" class="label-date">
+                <i class="bi bi-calendar"></i>Move-in Date
+              </label>
+            </div>
+
+            <!-- Location -->
+            <div class="controls">
+              <div class="booking-input-box">
+                <i class="bi bi-geo-alt"></i>
+                <select name="location" required>
+                  <option value="">Select Location</option>
+                  <option value="pune">Pune</option>
+                  <option value="mumbai">Mumbai</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Room Type -->
+            <div class="controls">
+              <div class="booking-input-box">
+                <i class="bi bi-person"></i>
+                <select name="room" required>
+                  <option value="">Select Room Type</option>
+                  <option value="single">Single Sharing</option>
+                  <option value="double">Double Sharing</option>
+                  <option value="triple">Triple Sharing</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Button -->
+            <div class="controlss">
+              <div class="booking-button">
+                <button type="submit">
+                  Check Availability <i class="flaticon flaticon-right-arrow"></i>
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>
         <!--==================================================-->
         <!-- End hotelhub Booking Section  -->
         <!--==================================================-->
